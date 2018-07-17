@@ -20,4 +20,8 @@ Scripts para extraçao de dados no Twitter
 * Instale o módulo do mysql via terminal: pip install tweepy --user
 * Ao criar o banco e as tabelas não esqueça de setar o unicode utf8mb4. Criando no Workbench não aparece na lista de unicode, mas é possível configurar via script no próprio Workbench.
 
+## Script que retorna os termos em alta em uma determinada região (trendingTopics.py)
+
+* BRAZIL_WOE_ID = 23424768
+
 
