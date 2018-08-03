@@ -10,10 +10,10 @@ Scripts para extraçao de dados no Twitter
 
 * O Python 3 suporta emoji (utf8mb4)
  Alterando a tabela Mysql: 
-   ALTER TABLE
+   (ALTER TABLE
       `extracao-teste`.extracaoTeste2
       CONVERT TO CHARACTER SET utf8mb4
-      COLLATE utf8mb4_unicode_ci;
+      COLLATE utf8mb4_unicode_ci;)
 * Tutoriais:
   * http://pythonprogramming.net/twitter-api-streaming-tweets-python-tutorial/
   * https://miningthedetails.com/blog/python/TwitterStreamsPythonMySQL/
@@ -28,5 +28,8 @@ Scripts para extraçao de dados no Twitter
 ## Script que retorna os termos em alta em uma determinada região (trendingTopics.py)
 
 * BRAZIL_WOE_ID = 23424768
+## Um script para inserir um campo id auto_increment na tabela 
+
+Alter Table `extracao-teste`.extracaoTeste2 add IdTeste2 INT NOT NULL PRIMARY KEY auto_increment;
 
 
