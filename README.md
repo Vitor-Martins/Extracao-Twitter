@@ -9,6 +9,11 @@ Scripts para extraçao de dados no Twitter
 ## Arquivo de Streamming do Twitter salvando em base de dados MySQL (twitterStream_mysql.py)
 
 * O Python 3 suporta emoji (utf8mb4)
+ Alterando a tabela Mysql: 
+   ALTER TABLE
+      `extracao-teste`.extracaoTeste2
+      CONVERT TO CHARACTER SET utf8mb4
+      COLLATE utf8mb4_unicode_ci;
 * Tutoriais:
   * http://pythonprogramming.net/twitter-api-streaming-tweets-python-tutorial/
   * https://miningthedetails.com/blog/python/TwitterStreamsPythonMySQL/
